@@ -1,0 +1,17 @@
+.info {
+	padding: 5px;
+	text-align: right;
+}
+
+.username {
+	font-size: 35px;
+	padding-bottom: 20px;
+	font-family: blox;
+}
+
+.info-title.fire {
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}

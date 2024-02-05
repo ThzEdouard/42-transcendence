@@ -1,0 +1,24 @@
+.image {
+	aspect-ratio: 1 / 1;
+	width: 300px;
+	padding: 10px;
+	object-fit: cover;
+}
+
+.relative-profile-pic {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+.absolute-profile-pic {
+	position: absolute;
+	border: solid #252c38 6px;
+	border-radius: 50%;
+	bottom: 10px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+}

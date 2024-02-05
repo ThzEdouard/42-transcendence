@@ -1,0 +1,33 @@
+div.friend-invites::-webkit-scrollbar {
+    display: none;
+}
+
+div.friend-invites {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #515256;
+	border-radius: 10px;
+	padding: 0px;
+	padding-bottom: 10px;
+	width: fit-content;
+	max-height: 400px;
+	max-width: 300px;
+	overflow-y: scroll;
+}
+
+.link-to-friend {
+	padding: 5px;
+}
+
+.friend-invites p {
+	font-weight: bold;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: #ff7c14;
+}
+
+.link-to-friend .link-text {
+	font-weight: normal;
+}
